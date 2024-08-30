@@ -12,31 +12,30 @@
   margin-top: 5%;
 }
 
-#cta .title{
- font-size: 4rem;
- color: #1d1d1d;
+#cta .title {
+  font-size: 4rem;
+  color: var(--color-neutral-1);;
 }
 
-#cta .title span{
-  font-size: 4rem;
-  color: #e9a209;
- }
+#cta .title span {
+  color: var(--color-primary-6);
+}
 
- #cta .description {
+#cta .description {
   font-size: 1.2rem;
- }
+}
 
- #cta_buttons{
+#cta_buttons {
   display: flex;
   gap: 24px;
- }
-
- #cta_buttons a {
-  text-decoration: none;
-  color: #1d1d1d;
 }
 
- #phone_button {
+#cta_buttons a {
+  text-decoration: none;
+  color: var(--color-neutral-1);;
+}
+
+#phone_button {
   display: flex;
   gap: 8px;
   align-items: center;
@@ -65,7 +64,7 @@
 }
 
 .shape {
-  background-color: #ffe8b4;
+  background-color: var(--color-primary-2);
   width: 50%;
   height: 100%;
   position: absolute;
